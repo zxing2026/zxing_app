@@ -11,9 +11,8 @@
 依赖。
 ```toml
 [dependencies]
-tokio = { version = "1", features = ["full"] } #异步
 tiny_http = "0.12"                             #Web服务器
-zxing_app="0.3.1"
+zxing_app="0.3.2"
 ```
 示例代码。
 ```rust
